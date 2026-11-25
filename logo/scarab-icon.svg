@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+  <title>SCARAB – SciML Classroom Arm for Research, AI &amp; Benchmarking</title>
+  <defs>
+    <!-- Pen-nib slit and breather hole, cut out of the beetle's wing covers (transparent) -->
+    <mask id="scarab-nib" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+      <rect width="100" height="100" fill="#fff"/>
+      <path d="M50 63V98" stroke="#000" stroke-width="2.2"/>
+      <circle cx="50" cy="61" r="3.2" fill="#000"/>
+    </mask>
+  </defs>
+  <!-- Ring, drawn by the pen: starts at the lower right and ends at the nib tip -->
+  <path d="M81.82 81.82A45 45 0 1 0 50 95" fill="none" stroke="#009b5d" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#009b5d">
+    <!-- Wing covers shaped as a pen nib, tip on the ring -->
+    <path d="M50 95C46 85 32 73 32 58C32 48.5 40 43.5 50 43.5C60 43.5 68 48.5 68 58C68 73 54 85 50 95Z" mask="url(#scarab-nib)"/>
+    <!-- Thorax and head -->
+    <path d="M36 41Q36 31 50 31Q64 31 64 41Z"/>
+    <path d="M43.5 29Q43.5 22 50 22Q56.5 22 56.5 29Z"/>
+  </g>
+  <!-- Legs as two-link SCARA arms -->
+  <g fill="none" stroke="#009b5d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M61 36L71 29L72 19M39 36L29 29L28 19"/>
+    <path d="M66 52L79 47L85 56M34 52L21 47L15 56"/>
+    <path d="M62 70L74 75L73 82M38 70L26 75L27 82"/>
+  </g>
+  <!-- Revolute joints -->
+  <g fill="#009b5d">
+    <circle cx="71" cy="29" r="2.7"/>
+    <circle cx="29" cy="29" r="2.7"/>
+    <circle cx="79" cy="47" r="2.7"/>
+    <circle cx="21" cy="47" r="2.7"/>
+    <circle cx="74" cy="75" r="2.7"/>
+    <circle cx="26" cy="75" r="2.7"/>
+  </g>
+</svg>
