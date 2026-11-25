@@ -12,6 +12,8 @@
   <a href="https://github.com/SCARAB-robot/data">data</a>
 </p>
 
+**SCARAB** (**S**ciML **C**lassroom **A**rm for **R**esearch, **A**I & **B**enchmarking) is a Selective Compliance Assembly Robot Arm (SCARA) with two rotational axes that writes on a sheet of paper. A third axis lifts the pen and pushes it down onto the paper. SCARAB is used to generate benchmark data and as a training system for students to explore traditional and ML-based modeling and control.
+
 # SCARAB · docu
 
 **Project documentation of the SCARAB robot.**
@@ -22,9 +24,9 @@ This repository is the central documentation of the SCARAB project. It describes
 
 It also holds the project's logos (`logo/`), as SVG and PNG, in a colored version for light backgrounds and a white version for dark backgrounds.
 
-## The SCARAB project
+## Project structure
 
-SCARAB (**S**ciML **C**lassroom **A**rm for **R**esearch, **A**I & **B**enchmarking) is an open robot arm for teaching, research and benchmarking in scientific machine learning (SciML) and AI. The project is split into four repositories:
+The SCARAB project is split into four repositories:
 
 | Repository | Contents |
 |---|---|
