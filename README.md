@@ -33,7 +33,7 @@ SCARAB (**S**ciML **C**lassroom **A**rm for **R**esearch, **A**I & **B**enchmark
 | [model](https://github.com/SCARAB-robot/model) | Simulation models of the robot |
 | [data](https://github.com/SCARAB-robot/data) | Dataset recorded from the real robot |
 
-In short: **system** describes the real robot, **data** is recorded from it, **model** simulates it, and **docu** documents the project as a whole.
+In short: **system** contains files to manufacture the robot, **data** is recorded from it, **model** simulates it, and **docu** documents the project as a whole.
 
 ## License
 
